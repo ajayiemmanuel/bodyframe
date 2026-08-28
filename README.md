@@ -206,8 +206,7 @@ filenames, EXIF/location data, private registry rows, complete image-dependent
 annotation tables, local filesystem paths, backups, and credentials.
 
 Publication of sample media remains contingent on redistribution-rights review.
-No license or image-redistribution grant should be inferred while
-[`LICENSE_PENDING.md`](LICENSE_PENDING.md) remains in place.
+No license or image-redistribution rights are granted unless explicitly stated.
 
 ## Limitations
 
