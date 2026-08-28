@@ -1,0 +1,23 @@
+entity,column_name,description
+subjects,subject_id,Immutable pseudonymous subject identifier.
+subjects,consent_status,Controlled consent-state field; public releases must not expose private row values.
+subjects,public_sample_permission,Records whether approved public sampling is permitted.
+capture_sessions,capture_session_id,Immutable capture-session identifier.
+capture_sessions,subject_id,Foreign key to the subject record.
+capture_sessions,session_status,Lifecycle state for the capture session.
+source_images,source_image_id,Immutable identifier for one source image.
+source_images,subject_id,Foreign key linking the source image to a subject.
+source_images,capture_session_id,Foreign key linking the source image to a capture session.
+source_images,capture_sequence,Sequence number within a subject/session lineage.
+source_images,capture_status,Lifecycle state for the source-image record.
+assets,asset_id,Immutable identifier for an original or derivative asset.
+assets,source_image_id,Foreign key shared by an original and all its derivatives.
+assets,parent_asset_id,Parent original asset for derivatives; blank for originals.
+assets,is_original,Yes/no flag distinguishing originals from derivatives.
+assets,variant_type,"Controlled transformation family, or original."
+assets,variant_level,Controlled transformation level when applicable.
+assets,filename,BODYFRAME-managed filename; source-provider filenames are not public fields.
+assets,relative_filepath,Project-relative storage pointer; private path values are excluded from public data.
+assets,creation_stage,Pipeline stage that created or registered the asset.
+assets,publication_status,Governance state controlling whether an asset may be published.
+assets,asset_status,Availability or lifecycle state for the asset.
