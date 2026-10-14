@@ -222,26 +222,4 @@ No license or image-redistribution rights are granted unless explicitly stated.
 - BODYFRAME 0.5 does not support medical, biometric, attractiveness,
   body-rating, fairness, or general pose-model performance claims.
 
-## Roadmap / next technical phase
 
-### Stage 6 — Video Architecture
-
-The next technical phase extends the governed evaluation architecture from
-still images to video. Stage 6 is architectural work; v0.5 does not yet claim
-video processing or temporal results.
-
-### Stage 7 — Pose Tracking Engine (planned)
-
-Pose tracking is planned after the video architecture is defined. Automated
-pose estimation and temporal tracking are not v0.5 capabilities.
-
-### Publication follow-up
-
-- Select and review code and documentation licenses.
-- Add only redistribution-approved public samples and matching regression fixtures.
-- Expand coverage across subjects, sessions, framing, and pose strata.
-- Run multi-annotator calibration and repeat annotation on a larger, more varied set.
-
-BODYFRAME 0.5 therefore serves as a transparent systems-and-evaluation pilot:
-the architecture is connected and reproducible, while its evidence boundaries
-remain explicit.
